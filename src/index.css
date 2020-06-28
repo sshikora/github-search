@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App a {
+  text-align: left;
+}
+
+.Counter {
+  text-align: center;
+  background: #eee;
+  margin: 5px;
+  padding: 5px;
+}
+
+.success {
+  color: #005500;
+}
+
+.fail {
+  color: #aa0000;
 }
